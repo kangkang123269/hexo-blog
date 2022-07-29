@@ -149,9 +149,9 @@ Docker run [可选参数] image
 
 - 查看历史命令
 
-  - ```python
-    docker history 镜像id 
-    ```
+~~~
+docker history 镜像id 
+~~~
 
 
 
@@ -166,10 +166,9 @@ Docker run [可选参数] image
 
 Docker commit 提交容器成为一个新的副本
 
-```python
+~~~
 Docker commit -m="提交的描述信息" -a="作者" 容器id 目标镜像:[Tag] 
-复制代码
-```
+~~~
 
 - 实战测试
   - 启动一个默认的tomcat
