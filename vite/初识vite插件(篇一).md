@@ -1,4 +1,4 @@
-# 初识vite插件
+# 初识vite插件（篇一）
 
 ### vite插件形式
 先举个简单的例子来认识下vite插件的结构：
@@ -122,3 +122,7 @@ export default function myExample () {
 - Vite构建插件
 - 用户插件设置enforce: 'post'
 - Vite构建后置插件(minify, manifest, reporting)
+
+
+
+接下来可以看看第二篇文章实战一下：[手写一个vite mock插件（篇二）](https://juejin.cn/post/7125745067758878756)
