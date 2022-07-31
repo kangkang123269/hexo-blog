@@ -216,7 +216,10 @@ screenError(enterErrorFn) {
 
 
 这里是一条华丽的分割线，讲完原理开始实战
--------
+
+---
+
+
 
 ### 项目的html
 
