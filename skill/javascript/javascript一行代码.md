@@ -62,3 +62,9 @@ const getRandomBoolean = () => Math.random() >= 0.5
 ~~~js
 const average = (arr) => arr.reduce((a, b) => a + b) / arr.length
 ~~~
+
+### 12、数组扁平化
+
+~~~js
+const flat = arr => arr.reduce((pre,cur) => pre.concat(Array.isArray(cur) ? flat(cur) : cur),[])
+~~~
